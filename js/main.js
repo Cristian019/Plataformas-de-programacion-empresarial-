@@ -59,11 +59,11 @@ function municipios(){
 			document.formularioregistro.municipio.options[i].value=ciudades[i];
 			document.formularioregistro.municipio.options[i].text=ciudades[i];
 		}
-		}else{
-			document.formularioregistro.municipio.length = 1;
-			document.formularioregistro.municipio.options[0].value="-";
-			document.formularioregistro.municipio.options[0].text="-";
-		}
-		document.formularioregistro.municipio.options[0].selected = true;
 	}
-	
+	else{
+		document.formularioregistro.municipio.length = 1;
+		document.formularioregistro.municipio.options[0].value="-";
+		document.formularioregistro.municipio.options[0].text="-";
+	}
+	document.formularioregistro.municipio.options[0].selected = true;
+}
