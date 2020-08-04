@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="../css/main.css">
-  <script defer type="text/javascript" src="../js/main.js"></script>
-  <title>registrarse</title>
-</head>
-<body>
-	<div class="login">
-		<h1>Registrate</h1>		
-		<form name="formularioregistro" method="post" id="formularioregistro">
-			<label for="nombre">Nombre</label>
-			<input type="text" name="nombre" placeholder="Nombre" required >
-			<label for="apellido">Apellido</label>
-			<input type="text" name="apellido" placeholder="Apellido" required>
-			<label for="correo">Correo</label>		
-			<input type="email" name="correo" placeholder="Correo" required>
-			<select name="departamento" id="departamento" onchange="municipios()" required>
-				<option value="-">Seleccione Departamento</option>
-			</select>
-			<select name="municipio" required>
-				<option value="-">Seleccione Municipio</option>
-			</select>
-			<label for="clave">Contrase&ntilde;a</label>
-			<input type="password" name="clave" placeholder="**********" minlength="6" required >
-			<label for="confirmarclave">Confirmar contrase&ntilde;a</label>
-			<input type="password" name="confirmarclave" placeholder="**********" minlength="6" required>
-			<input type="submit" name="registrarse" value="registrarse">
-			<a href="iniciarsesion.html">Ya tengo cuenta</a>
-		</form>
-	</div>
-</body>
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	  <link rel="stylesheet" type="text/css" href="../css/main.css">
+	  <script defer type="text/javascript" src="../js/main.js"></script>
+	  <title>registrarse</title>
+	</head>
+	<body>
+		<div class="login">
+			<h1>Registrate</h1>		
+			<form name="formularioregistro" method="post" id="formularioregistro" action="productos.html">
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" placeholder="Nombre" required >
+				<label for="apellido">Apellido</label>
+				<input type="text" name="apellido" placeholder="Apellido" required>
+				<label for="correo">Correo</label>		
+				<input type="email" name="correo" placeholder="Correo" required>
+				<select name="departamento" id="departamento" onchange="municipios()" required>
+					<option>Seleccione Departamento</option>
+				</select>
+				<select name="municipio" required>
+					<option>Seleccione Municipio</option>
+				</select>
+				<label for="clave">Contrase&ntilde;a</label>
+				<input type="password" name="clave" placeholder="**********" minlength="6" required >
+				<label for="confirmarclave">Confirmar contrase&ntilde;a</label>
+				<input type="password" name="confirmarclave" placeholder="**********" minlength="6" required>
+				<a href="productos.html"><input type="submit" name="registrarse" value="registrarse"></a>
+				<a href="iniciarsesion.html">Ya tengo cuenta</a>
+			</form>
+		</div>
+	</body>
 </html>
