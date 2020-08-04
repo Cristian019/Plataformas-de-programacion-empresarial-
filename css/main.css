@@ -164,3 +164,170 @@ html{
 	color: #fff;
 	cursor: pointer;
 }
+.producto1{
+	width: 300px;
+	height: 400px;
+	background: #6faacc;
+	color: #FFF;
+	top: 45%;
+	left: 15%;
+	position: absolute;
+	transform: translate(-75%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	margin-left: 10px;
+}
+.producto1 img {
+	width: 100%;
+	height: 75%;
+	transform: translate(0%,-13%);
+}
+.producto1 label {
+	font-size: 17px;
+	display: block;
+	margin-bottom: 1%;
+}
+.producto2{
+	width: 300px;
+	height: 400px;
+	background: #6faacc;
+	color: #FFF;
+	top: 45%;
+	left: 40%;
+	position: absolute;
+	transform: translate(-75%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	margin-left: 10px;
+}
+.producto2 img {
+	width: 100%;
+	height: 75%;
+	transform: translate(0%,-13%);
+}
+.producto2 label {
+	font-size: 17px;
+	display: block;
+	margin-bottom: 1%;
+}
+.producto3{
+	width: 300px;
+	height: 400px;
+	background: #6faacc;
+	color: #FFF;
+	top: 45%;
+	left: 65%;
+	position: absolute;
+	transform: translate(-75%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	margin-left: 10px;
+}
+.producto3 img {
+	width: 100%;
+	height: 75%;
+	transform: translate(0%,-13%);
+}
+.producto3 label {
+	font-size: 17px;
+	display: block;
+	margin-bottom: 1%;
+}
+.producto4{
+	width: 300px;
+	height: 400px;
+	background: #6faacc;
+	color: #FFF;
+	top: 45%;
+	left: 90%;
+	position: absolute;
+	transform: translate(-75%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	margin-left: 10px;
+}
+.producto4 img {
+	width: 100%;
+	height: 75%;
+	transform: translate(0%,-13%);
+}
+.producto4 label {
+	font-size: 17px;
+	display: block;
+	margin-bottom: 1%;
+}
+.barra {
+	background: #6f99aa;
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	right: 0%;
+}
+.barra button{
+	background-color: : #6faacc;
+	border: none;
+	height: 40px;
+	margin-left: 93%;
+	transform: translate(0%,25%);
+}
+.barra a{
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 20px;
+	width: 100%;
+}
+
+.imagenproducto {
+	width: 47%;
+	height: 60%;
+	top: 20%;
+	left: 1%;
+	position: absolute;
+	margin-left: 2%;
+}
+.imagenproducto img{
+	width: 100%;
+	height: 100%;
+}
+.descripcion {
+	width: 42%;
+	height: 67%;
+	background: #6faacc;
+	color: #FFF;
+	top: 20%;
+	left: 50%;
+	position: absolute;
+	padding: 20px 30px;
+	margin-left: 20px;
+}
+.descripcion p {
+	width: 95%;
+	font-size: 16px;
+}
+.descripcion input {
+	display: block;
+	width: 40%;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #28cfff;
+	color: #FFF;
+	font-size: 18px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.descripcion a{
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 20px;
+	color: #000;
+	width: 1%;
+	margin-left: 1%;
+}
+.descripcion a:hover {
+	color: #fff;
+	cursor: pointer;
+}

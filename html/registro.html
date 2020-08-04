@@ -13,21 +13,21 @@
 		<h1>Registrate</h1>		
 		<form name="formularioregistro" method="post" id="formularioregistro">
 			<label for="nombre">Nombre</label>
-			<input type="text" name="nombre" placeholder="Nombre">
+			<input type="text" name="nombre" placeholder="Nombre" required >
 			<label for="apellido">Apellido</label>
-			<input type="text" name="apellido" placeholder="Apellido">
+			<input type="text" name="apellido" placeholder="Apellido" required>
 			<label for="correo">Correo</label>		
-			<input type="email" name="correo" placeholder="Correo">
-			<select name="departamento" id="departamento" onchange="municipios()">
+			<input type="email" name="correo" placeholder="Correo" required>
+			<select name="departamento" id="departamento" onchange="municipios()" required>
 				<option value="-">Seleccione Departamento</option>
 			</select>
-			<select name="municipio">
+			<select name="municipio" required>
 				<option value="-">Seleccione Municipio</option>
 			</select>
 			<label for="clave">Contrase&ntilde;a</label>
-			<input type="password" name="clave" placeholder="**********">
+			<input type="password" name="clave" placeholder="**********" minlength="6" required >
 			<label for="confirmarclave">Confirmar contrase&ntilde;a</label>
-			<input type="password" name="confirmarclave" placeholder="**********">
+			<input type="password" name="confirmarclave" placeholder="**********" minlength="6" required>
 			<input type="submit" name="registrarse" value="registrarse">
 			<a href="iniciarsesion.html">Ya tengo cuenta</a>
 		</form>
