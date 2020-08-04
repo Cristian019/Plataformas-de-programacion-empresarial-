@@ -11,18 +11,18 @@
 <body>
 	<div class="login">
 		<h1>Registrate</h1>		
-		<form name="registro" method="post" id="formularioregistro">
+		<form name="formularioregistro" method="post" id="formularioregistro">
 			<label for="nombre">Nombre</label>
 			<input type="text" name="nombre" placeholder="Nombre">
 			<label for="apellido">Apellido</label>
 			<input type="text" name="apellido" placeholder="Apellido">
 			<label for="correo">Correo</label>		
 			<input type="email" name="correo" placeholder="Correo">
-			<select name="departamento" id="departamento" onchange="cargar();">
-				<option value="0">-Seleccione-</option>
+			<select name="departamento" id="departamento" onchange="municipios()">
+				<option value="-">Seleccione Departamente</option>
 			</select>
-			<select name="ciudad" id="ciudad">
-				<option value="0">-Seleccione-</option>
+			<select name="municipio">
+				<option value="-">Seleccione Municipio</option>
 			</select>
 			<label for="clave">Contrase&ntilde;a</label>
 			<input type="password" name="clave" placeholder="**********">
@@ -32,6 +32,5 @@
 			<a href="iniciarsesion.html">Ya tengo cuenta</a>
 		</form>
 	</div>
-
 </body>
 </html>
